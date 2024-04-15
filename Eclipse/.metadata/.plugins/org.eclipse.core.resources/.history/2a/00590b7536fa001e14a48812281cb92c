@@ -1,0 +1,25 @@
+package com.dan.learnspringframework.game;
+
+public class MarioGame {
+
+	public void up() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void down() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void left() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void right() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

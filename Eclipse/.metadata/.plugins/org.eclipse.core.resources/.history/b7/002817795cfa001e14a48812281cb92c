@@ -1,0 +1,14 @@
+package com.dan.learnspringframework;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class HelloWorldCOnfiguration {
+	
+	@Bean
+	public String getBean() {
+		return "Dan";
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.dan.learnspringframework;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.dan.learnspringframework.game.GameRunner;
+import com.dan.learnspringframework.game.MarioGame;
+import com.dan.learnspringframework.game.SuperContra;
+
+@SpringBootApplication
+public class LearnSpringFrameworkApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(LearnSpringFrameworkApplication.class, args);
+
+//		var game = new SuperContra();
+		var game = new MarioGame();
+		GameRunner gameRunner = new GameRunner(game);
+		gameRunner.run();
+	}
+
+}

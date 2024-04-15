@@ -1,0 +1,5 @@
+package com.dan.learnspringframework.game;
+
+public interface GamingConsole {
+
+}
