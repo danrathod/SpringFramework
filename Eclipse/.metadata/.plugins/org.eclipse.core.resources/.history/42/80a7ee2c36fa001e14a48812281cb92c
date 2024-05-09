@@ -1,9 +1,0 @@
-package com.dan.learnspringframework.game;
-
-public class GameRunner {
-
-	public void run(MarioGame marioGame) {
-		System.out.println("Running " + marioGame);
-	}
-
-}
